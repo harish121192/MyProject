@@ -45,7 +45,7 @@ public class IndexPageTest extends BaseClass {
 	@Test(groups="Smoke")
 	public void verifyTitle() {
 		String actTitle = indexpage.getMyStoreTitle();
-		Assert.assertEquals(actTitle, "My Store");
+		Assert.assertEquals(actTitle, "My Store1");
 		
 	}
 
